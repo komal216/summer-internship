@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url(institute.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ul li a {
+    text-decoration: navy;
+    color: lightpink;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+ul li.active a {
+    background-color: lightslategray;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-light {
+    color: black;
+    background-color: #f4f4f4;
+}
+
+.btn-light,
+.btn-dark,
+.btn-main a :hover {
+    background-color: white;
+    color: black;
+    transform: translate();
+}
+
+.btn-main,
+.btn-light,
+.btn-dark {
+    display: inline-block;
+    padding: 0.8rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+#hide1 {
+    color: #ffbc00;
+}
+
+.bt #hide1 {
+    color: #ffbc00;
+}
+
+
+/* section 1 degine*/
+
+.se1 {
+    width: 100%;
+    height: 450px;
+    padding: 0%;
+}
+
+.se1 h1 {
+    font-size: 50;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.se1 h1::after {
+    content: '';
+    background: orange;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.se1 h4 {
+    text-align: center;
+    padding: auto;
+    text-transform: uppercase;
+}
+
+.spacial {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, ;
+}
+
+.spacial i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.spacial h3 {
+    font-weight: 600px;
+    margin-bottom: 8px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    color: black;
+    grid-gap: 30px;
+}
+
+
+/* section 2 degine*/
+
+.sec2 {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    height: 10px;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sec2 div:nth-child(odd) {
+    background: rgb(173, 178, 184);
+}
+
+.sec2 div:nth-child(even) {
+    background: rgb(233, 237, 241);
+}
+
+#s2 {
+    text-align: center;
+}
+
+.sec2 div {
+    padding: 3rem 0;
+}
+
+.sec2 ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.sec2 ul li {
+    line-height: 2;
+}
+
+.fas fa-award fa-3x {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.sec2 li.sec2-number {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+
+/* section 3 degine*/
+
+.container {
+    width: 100%;
+    height: 100px;
+    padding: 0%;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 20%;
+    margin-bottom: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+.container h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+.container h1::after {
+    content: '';
+    background: orange;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.roww {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s;
+}
+
+.service i {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: orange;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* .process-step {
+        position: absolute;
+        bottom: 200;
+        right: 100;
+        margin-right: 200px;
+        font-size: 28px;
+        background: #ffbc00;
+        color: #fff;
+        border-radius: 50%;
+        height: 5px;
+        width: 5px;
+        line-height: 15px;
+        padding: 1rem;
+        transition: all 1s;
+    }*/
+
+.service h3 {
+    font-weight: 600px;
+    margin-bottom: 8px;
+}
+
+.service:hover {
+    /* margin-top: 10px; */
+    background: #303ef7;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.service:hover i {
+    color: #fff;
+    /* width: 70px;
+        height: 70px; */
+    /* transition: all 1s; */
+    text-align: center;
+}
+
+
+/*footer degine*/
+
+.footer {
+    margin-top: 600px;
+    background-color: black;
+}
+
+.footer.com {
+    color: #fff;
+}
+
+*/
+/* .footer {
+    margin-top: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(52, 49, 49);
+    padding: 50px 0;
+}
+
+
+/* .bottom-line1 {
+    height: 1px;
+    width: 7rem;
+    background: #ffbc00;
+    display: block;
+    margin: 0.5rem 0;
+} */
+
+
+/* .com {
+    color: #bbbbbb;
+    display: block;
+}
+
+.com h3 {
+    position: relative;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.com pre {
+    margin-bottom: 200px;
+}
+
+.nevigate h3 {
+    color: #fff;
+    margin-bottom: 100px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+
+.nevigate a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.follow_us {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+
+.follow_us a {
+    /* display: block; 
+    height: 40px;
+    padding: 7px;
+    width: 40px;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* margin: 0 10px 10px 0; */
+
+
+/* text-align: center !important;
+    line-height: 40px !important;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.follow_us a:hover {
+    background-color: #ffbc00;
+}  */
+
+
+/* .femail a {
+    margin: 0;
+    display: inline-block;
+    font-size: 1em;
+} */
+
+
+/* .footer_copy {
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgb(52, 49, 49);
+    color: white;
+} */
+
+.footer {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet footer {
+    display: block;
+}
+
+.footer_container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bottom-line1 {
+    height: 1px;
+    width: 4rem;
+    background: #ffbc00;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+pre {
+    margin-left: -110px !important;
+}
+
+.footer-col ul li a,
+pre {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a,
+pre {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer.copy {
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,144 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6;
+    }
+    
+    #about-b .section-title {
+        text-align: center;
+    }
+    
+    .bottom-line {
+        height: 2px;
+        width: 5rem;
+        background: #ffbc00;
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+    
+    #about-b {
+        background-color: rgba(0, 0, 0, 0.684);
+        color: white;
+    }
+    
+    #about-b .container {
+        margin-left: 20px;
+    }
+    
+    #about-b #progressHtml {
+        overflow: hidden;
+        height: 20px;
+        margin-right: 40px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    
+    #about-b #progressDoneHtml {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
+    
+    #about-b #progressCss {
+        overflow: hidden;
+        height: 20px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    #about-b #progressDoneCss {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
+    
+    #about-b #progressBootstrap {
+        overflow: hidden;
+        height: 20px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    #about-b #progressDoneBootstrap {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
+    
+    #about-b #progressSass {
+        overflow: hidden;
+        height: 20px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    #about-b #progressDoneSass {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
+    
+    #about-b #progressJavascript {
+        overflow: hidden;
+        height: 20px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    #about-b #progressDoneJavascript {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
+    
+    #about-b #progressReact {
+        overflow: hidden;
+        height: 20px;
+        background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+        margin-right: 40px;
+    }
+    
+    #about-b #progressDoneReact {
+        height: 100%;
+        color: #fff;
+        width: 0;
+        text-align: center;
+        background: #ffbc00;
+        /* transition: 1s ease 0.3s; */
+        transition: 3s ease-in-out;
+    }
